@@ -4,10 +4,10 @@ layout: default
 <article class="post h-entry" itemscope item="http://schema.org/BlogPosting">
 <header class="post-header">
     {%- if page.image -%}
-      <a href="{{ page.url | replace:'index.html','' | absolute_url }}"><img src="{{- page.image | relative_url -}}" alt="toko bunga batam" loading="lazy" class="featured-image-post"></a>
+      <a href="{{ page.url | replace:'index.html','' | absolute_url }}"><img src="{{- page.image | relative_url -}}" alt="toko bunga porsea" loading="lazy" class="featured-image-post"></a>
     {%- else -%}
-      {%- assign postImage = "/image/tokobungabatam.jpg" -%}
-      <a href="{{ page.url | replace:'index.html','' | absolute_url }}"><img src="{{- postImage | relative_url -}}" alt="toko bunga batam" loading="lazy" class="featured-image-post"></a>
+      {%- assign postImage = "/image/tokobungaporsea.jpg" -%}
+      <a href="{{ page.url | replace:'index.html','' | absolute_url }}"><img src="{{- postImage | relative_url -}}" alt="toko bunga porsea" loading="lazy" class="featured-image-post"></a>
     {%- endif -%}
     <h1 class="post-title p-name" item="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
